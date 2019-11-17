@@ -11,6 +11,10 @@
 |
 */
 
+Route::get('/axios', function () {
+    return view('axios');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
